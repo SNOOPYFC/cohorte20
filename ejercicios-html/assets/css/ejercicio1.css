@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: gray;
+}
+nav{
+    background-color: greenyellow;
+    
+}
+
+
+section{
+    background-color: yellow;
+    
+}
+aside{
+    background-color: gray;
+    
+}
