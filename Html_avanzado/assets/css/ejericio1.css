@@ -1,0 +1,50 @@
+/* STAR FORM */
+
+form {
+    display: inline-block;
+    width: 350px;
+    padding: 10px;
+    background-color:green;
+    color:white;
+    border: 5px solid aqua;
+    border-radius: 5px;
+    align-items: center;
+    
+}
+
+label {
+    display: inline-block;
+    width: 85px;
+    
+    
+}
+
+input{
+    width: 150px;
+    border-color: red;
+   
+    
+}
+#btn{
+    background-color: rgb(252, 248, 248);
+    border: none;
+    padding-top: 0px;
+    margin-top: 0px;
+    font-weight:lighter;
+    color:rgb(3, 3, 3);
+    width: 45%;
+    font-size: smaller;
+    margin-bottom: 40px;
+}
+#btn:hover{
+    background-color: rgb(8, 100, 100);
+    transform: scale(1.1);
+    
+}
+.campo{
+    margin-left: 40px;
+}
+.sub{
+    margin-bottom: 0%;
+}
+/* FORM ENDS */
