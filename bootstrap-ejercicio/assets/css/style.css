@@ -1,0 +1,33 @@
+.altura-img{
+    height:calc(100vh - 70px);
+}
+.tamaño{
+    width: 100%;
+    height: 15rem;
+}
+/* width:100%;
+    height: 200px; */
+
+ 
+
+@include media-breakpoint-only(lg) { .alturaCarta{
+   
+    
+} }
+
+.musicimg {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 2rem;
+}
+.musicimg:hover{
+    width: 3rem;
+    height: 3rem;
+}
+
+.ancho{
+    margin-top: 1rem;
+    width: 30%;
+    height: 30%;
+    margin-bottom: 1rem;
+}

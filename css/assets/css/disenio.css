@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.padre{
+    border: 3px dashed green;
+}
+
+.cuadro{
+    width: 100px;
+    height: 100px;
+
+}
+
+.uno{
+    background-color: rgb(208, 77, 20);
+}
+.doa{
+    background-color: rgb(52, 27, 92);
+}
+.tres{
+    background-color: rgb(187, 194, 52);
+}

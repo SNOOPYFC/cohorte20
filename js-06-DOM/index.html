@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulacion del DOM</title>
+    <style>
+        .azul{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="azul"> ÇÇÇÇÇÇÇ Ejemplo de DOM ÇÇÇÇÇÇ</h1>
+    <p class="azul">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, modi.</p>
+    <p class="azul">sssssssssss</p>
+    <form action=""></form>
+     
+    <script>
+
+        // console.log("valor de etiqueta" + etiqueta.innerHTML);
+        let etiquetas = document.getElementsByClassName("azul"); 
+        
+        for (let elemento of etiquetas) {
+            console.log(`No. - etiquetas: ${etiquetas.innerHTML}`);
+            
+        }
+        // for (let i = 0; i < etiquetas.length; i++) {
+        //    console.log(`No. ${i} - etiquetas: ${etiquetas[i].innerHTML}`);
+            
+        // }
+
+
+
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+p{
+    color: bisque;
+}
+/* slector universal */
+*{
+    color: brown;
+}
+/* selector de tipo */
+span{
+    color: aqua;
+}
+em{
+    color: aqua;
+}
+/* selector de clase este si se debe llamar en donde se quiere con class */
+.titluo {
+    color: aliceblue;
+}
+
+/* selector de id tambien se debe llamar*/
+#selector {
+    color: aliceblue;
+}

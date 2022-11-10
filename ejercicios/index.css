@@ -1,0 +1,38 @@
+.texto{
+    text-align: center;
+}
+nav{
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+.izquierda {
+    float: left;
+    border: 1px solid darkblue;
+  
+  margin-left: auto;
+  padding: 10%;
+}
+.derecha {
+    float: left;
+    border: 1px solid darkblue;
+  width:auto;
+  margin-right: auto;
+  padding: 10%;
+}
+.pequeño {
+    width: 350px;
+  height: 350px;
+}
+section {
+    width: 750px;
+    height: 450px;
+    float: left;
+    
+}
+aside{
+    width: 185px;
+    height: 400px;
+    float: left;
+}
