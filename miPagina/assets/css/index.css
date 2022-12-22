@@ -17,19 +17,29 @@ body{
 
 .colorDeFondo{
 background-color: #0b0b0c;
-border-color: #7bb12986;
 border: #06b3be solid;
 color: #06b3be;
+margin: 0;
+}
+#menu{
+    background:#000000;
 }
 
 .o{
-    color: #86ca21;
+    color: #d6ec11;
 }
+.test{
+   background-color:#aa4e8b;
+   color: #aa4e8b;
+}    
 
 /* Inicio Estilos barra de navegacion */
 .fondo {
     background-color: #06b3be;
+    
 }
+
+
 
 .navbar-nav > li > .dropdown-menu {
     background-color: #D6B1FF;
@@ -158,19 +168,97 @@ border-radius: 10%;
 /* termina footer */
 
 
-.sol{
-    width: 160px;
-    height: 160px;
-    margin: 1px;
-    padding: 2px;
-    color: #5ca85f;
-    align-items: center;
-    transition: all 0.2s ease-in;
-    background-color: #06b3be;
+.paracetamol i{
     
+    margin: 1rem;
+   
+    color: #b1ae0a;
+    font-size: 8rem;
+    
+}
+.paracetamol a{
+    text-decoration: none;
 }
 
 
 
+.arriba{
+   
+    text-decoration: none;
+    color: #06b3be;
+}
 
 
+.slideUp {
+    animation-name: slideUp;
+    animation-name: slideUp;
+    animation-duration: 100s;
+    animation-duration: 5s;
+    visibility: visible;
+    color: #c3bb2d;
+    text-align: center;
+    
+    
+  }
+  .slideUps{
+    animation-name: slideUp;
+    
+    animation-name: slideUp;
+    animation-duration: 100s,;
+    animation-duration:5s;
+   
+    visibility:visible;
+    color: #06b3be;
+    text-align: center;
+    
+  }
+
+  
+  @keyframes slideUp {
+    0% {
+      opacity: 0;
+      transform: translatey(90%);
+      
+      
+    } 
+   
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+      
+    }
+  }
+
+  
+.mostrarArriba{
+    
+    position: relative;
+    transition: all 3s;
+    animation: rotacion 4s 3 alternate, mymove2 4s 3 alternate;
+    animation-delay: 5s;
+}
+
+@keyframes mymove2 {
+    0% { 
+      left: 4em;
+    }
+    50% {
+      left: 0em;
+    }
+    100% {
+      left: 1em;
+    }
+  }
+  
+  
+  @keyframes rotacion {
+    0% {
+      transform: rotate(15deg);
+    }
+    50% {
+      transform: rotate(10deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
