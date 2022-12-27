@@ -14,6 +14,25 @@ body{
 
 
 }
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.textoEncima{
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
 .colorDeFondo{
 background-color: #0b0b0c;
@@ -152,7 +171,17 @@ border-radius: 10%;
     height: 30px;
     margin: 10px;
     padding: 2px;
-    color: #762059;
+    color: #070306;
+    align-items: center;
+    transition: all 0.2s ease-in;
+    
+}
+.iconoInicio i{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    padding: 2px;
+    color: #b8b60d;
     align-items: center;
     transition: all 0.2s ease-in;
     
@@ -166,11 +195,17 @@ border-radius: 10%;
 
 }
 /* termina footer */
-
+.hs{
+  color: #06b3be;
+  
+}
+.hs:hover{
+  color: #06be77;
+}
 
 .paracetamol i{
     
-    margin: 1rem;
+    margin: .1rem;
    
     color: #b1ae0a;
     font-size: 8rem;
@@ -228,37 +263,90 @@ border-radius: 10%;
       
     }
   }
-
-  
-.mostrarArriba{
+  .movimientoBici{
     
     position: relative;
     transition: all 3s;
-    animation: rotacion 4s 3 alternate, mymove2 4s 3 alternate;
-    animation-delay: 5s;
+    animation: derechabici 4s infinite alternate;
 }
 
-@keyframes mymove2 {
+@keyframes derechabici {
     0% { 
-      left: 4em;
-    }
-    50% {
       left: 0em;
     }
     100% {
-      left: 1em;
+      left: 90%;
     }
   }
   
   
-  @keyframes rotacion {
-    0% {
-      transform: rotate(15deg);
-    }
-    50% {
-      transform: rotate(10deg);
-    }
-    100% {
-      transform: rotate(0deg);
-    }
+  
+  
+  
+
+
+
+
+
+  #bicis,
+#carro,
+#moto,
+#patineta,#avion {
+  font-size: 8em;
+  background-color: #18191f;
+  color: #fff;
+  box-shadow: 2px 2px 2px #00000080, 10px 1px 12px #00000080,
+    2px 2px 10px #00000080, 2px 2px 3px #00000080, inset 2px 2px 10px #00000080,
+    inset 2px 2px 10px #00000080, inset 2px 2px 10px #00000080,
+    inset 2px 2px 10px #00000080;
+  border-radius: 29px;
+  
+  margin: 0 40px;
+  animation: animate 3s linear infinite;
+  text-shadow: 0 0 50px #0072ff, 0 0 100px #0072ff, 0 0 150px #0072ff,
+    0 0 200px #0072ff;
+}
+#nombress {
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
   }
+  #apellido{
+    text-shadow: red 2px 5px;
+  }
+  
+
+#bicis {
+  animation-delay: 0.3s;
+}
+
+#carro {
+  animation-delay: 0.7s;
+}
+
+#patineta {
+  animation-delay: 0.1s;
+}
+#avion {
+    animation-delay: 0.7s;
+  }
+  
+  #moto {
+    animation-delay: 0.1s;
+  }
+
+@keyframes animate {
+  from {
+    filter: hue-rotate(0deg);
+  }
+  to {
+    filter: hue-rotate(360deg);
+  }
+}
+
+label{
+    display: inline;
+ position: absolute;
+ background-color: rgba(15, 15, 15, 0.867);
+ color:#d4d40a 
+}
+
+
